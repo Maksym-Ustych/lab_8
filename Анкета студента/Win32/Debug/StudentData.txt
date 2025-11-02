@@ -1,0 +1,4 @@
+Ім’я: EditName
+Прізвище: EditSurname
+Вік: EditAge
+Група: EditGroup

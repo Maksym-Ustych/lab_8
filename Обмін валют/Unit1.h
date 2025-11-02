@@ -1,0 +1,35 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TRadioButton *RadioButton1;
+	TRadioButton *RadioButton2;
+	TEdit *Edit1;
+	TEdit *Edit2;
+	TLabel *Label1;
+	TEdit *Edit3;
+	TEdit *Edit4;
+	TButton *ButtonClear;
+	TButton *ButtonConvert;
+	TButton *ButtonExit;
+	TLabel *LabelTitle;
+	void __fastcall ButtonConvertClick(TObject *Sender);
+	void __fastcall ButtonClearClick(TObject *Sender);
+	void __fastcall ButtonExitClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
